@@ -11,12 +11,14 @@
     _2. CSS_
     _3. Js_
     _4. Git_
-5.  (function mix() {
-    for (let i = 0; i < cards.length; i++) {
-    let card = cards[i];
-    card.style.order = Math.floor(Math.random() \* cards.length);
-    }
+5.  ```
+    (function mix() {
+      for (let i = 0; i < cards.length; i++) {
+        let card = cards[i];
+        card.style.order = Math.floor(Math.random() \* cards.length);
+      }
     })();
+    ```
 6.  _to be completed_
 7.  Higher Education. BSUIR
 8.  English level - A1(Elementary)
