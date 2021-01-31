@@ -28,13 +28,24 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 0;
 }
-.box {
+.profile_li {
   display: flex;
   align-items: center;
   margin: 0 10px;
 }
 p {
+  margin: 0;
+  padding: 7px;
+  font-variant-caps: petite-caps;
+  letter-spacing: 2px;
+  color: gray;
+}
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0;
   padding: 7px;
   font-variant-caps: petite-caps;
@@ -72,6 +83,9 @@ main {
   margin: 0 16px 16px 16px;
   text-align: center;
   background-color: darkseagreen;
+}
+.card_code a {
+  align-items: flex-start;
 }
 .card_experience {
   display: grid;
@@ -124,8 +138,4 @@ h3 {
 }
 .git {
   color: rgb(41, 41, 41);
-}
-a {
-  font-variant-caps: petite-caps;
-  color: gray;
 }
